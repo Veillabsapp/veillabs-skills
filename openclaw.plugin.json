@@ -1,0 +1,20 @@
+{
+  "id": "veillabs",
+  "name": "Veillabs API",
+  "description": "Interact with Veillabs privacy-focused DEX API for cross-chain swaps, private seed distributions, and transaction tracking.",
+  "skills": [
+    "veillabs-skill"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "description": "Enable or disable Veillabs skill",
+        "default": true
+      }
+    },
+    "description": "Configuration for Veillabs. Requires VEILLABS_BASE_URL environment variable."
+  }
+}

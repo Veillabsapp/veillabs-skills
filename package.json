@@ -1,0 +1,20 @@
+{
+  "name": "veildex-openclaw",
+  "version": "1.0.0",
+  "description": "Veillabs AI plugin for OpenClaw. Interact with Veillabs privacy-focused DEX API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "skill",
+    "veillabs",
+    "dex",
+    "privacy",
+    "crypto"
+  ],
+  "author": "",
+  "license": "MIT"
+}
