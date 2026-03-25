@@ -7,7 +7,7 @@ metadata:
   openclaw:
     version: "1.0.0"
     emoji: "🔒"
-    homepage: "https://veillabs.app"
+    homepage: "https://trade.veillabs.app"
     user-invocable: true
     requires:
       env:

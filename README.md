@@ -25,7 +25,7 @@ git clone https://github.com/Veillabsapp/veillabs-ai-skills.git veillabs
 The Veillabs skill requires the API base URL to be set in your OpenClaw environment variables.
 
 Ensure the following environment variable is loaded:
-- `VEILLABS_BASE_URL` : The core API URL (e.g., `https://veillabs.app`).
+- `VEILLABS_BASE_URL` : The core API URL (e.g., `https://trade.veillabs.app/api`).
 
 ### Enabling the Skill
 To enable the plugin, ensure it is activated in your OpenClaw configuration (`~/.openclaw/openclaw.json` or your workspace config):
