@@ -68,7 +68,7 @@ No authentication required (privacy-first platform).
 1. Call `GET /api/volume` for real-time volume data
 
 ## Error Handling
-- 400: Bad Request (missing fields, below minimum amount, invalid private key)
+- 400: Bad Request (missing fields, below minimum amount)
 - 404: Transaction/order not found
 - 500: Internal server error (RPC, DB, Redis issues)
 
@@ -591,7 +591,7 @@ waiting → processing → finished
 | Code | Description |
 |------|-------------|
 | `200` | Success |
-| `400` | Bad Request — missing fields, below minimum amount, invalid private key, total amount mismatch |
+| `400` | Bad Request — missing fields, below minimum amount, total amount mismatch |
 | `404` | Tracking ID / Order ID not found |
 | `500` | Server error — database, Redis, or blockchain RPC issues |
 
